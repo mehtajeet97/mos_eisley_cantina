@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mos Eisley Cantina</title>
+        <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
+        <style>
+            * {
+                margin:0;
+                padding:0;
+            }
+            header, footer {
+                padding: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 125%;
+                background-color: #edc9af;
+                text-align: center;
+            }
+            #header-img {
+                max-width:25%;
+            }
+            header h1 {
+                font-family: 'Star Wars', sans-serif;
+                padding-top: 10px;
+            }
+            nav li {
+                display: inline;
+                padding: 0px 7px;
+            }
+            nav a {
+                text-decoration: none;
+                color: orangered;
+            }
+            main {
+                padding: 20px;
+            }
+            main h2{
+                padding:10px 0px;
+            }
+            article {
+                padding: 10px 0px;
+                margin: 5px 0px;
+                border: 3px solid;
+                border-radius: 17px;
+            }
+            article img {
+                max-width: 75%;
+            }
+            article h4{
+                padding: 10px;
+                text-decoration: underline;
+            }
+            article h3{
+                display: inline;
+                padding:10px;
+            }
+            article p{
+                padding:10px;
+            }
+            .group:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .text {
+                float: left;
+                width: 70%;
+            }
+            .images {
+                float: left;
+                width: 30%;
+            }
+            .notice {
+                text-align: center;
+                color:red;
+                padding:30px;
+                font-size: 50px;
+            }
+            #order-form {
+                border-style: ridge ridge none ridge;
+                border-radius: 15px;
+                border-width: 3px;
+                border-color: #f1a321;
+                text-align: center;
+                font-size: 17px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <img src="https://i.etsystatic.com/21569499/r/il/cd83cb/4647188149/il_1588xN.4647188149_l7nu.jpg" id="header-img" alt="Mos Eisley Cantina Logo">
+            <h1>Mos Eisley Cantina</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#order-form">Order</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <p class="notice">HELLO THERE</p>
+            <!-- Menu Section -->
+            <section id="menu">
+                <h2>Menu</h2>
+                <article>
+                    <div class="group">
+                        <div class="text">
+                            <h4>Starters </h4>
+                            <h3>Tusken Raiders Taters </h3>
+                            <i>&emsp;..... 5.00 credits</i>
+                            <p>Potatoes with desert-inspired flavors like spices and herbs found on Tatooine.<br>
+                            Potatoes are obviously stolen from travelers unfortunate enough to wander in Tusken territory.</p>
+                        </div>
+                      
+                        <div class="images">
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/tusken-raiders-main-bobf-2_135f8e1e.jpeg?region=0%2C0%2C1280%2C720" alt="tusken raider">
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="group">
+                        <div class="text">
+                            <h4>Entrees </h4>
+                            <h3>Hutt Burger </h3>
+                            <i>&emsp;..... 11.00 credits</i>
+                            <p>Grade A rancor meat with all the fixins.<br>
+                           It is criminal to eat this sluggishly.<br> Beware though there are no second helpings!</p>
+                        </div>
+                      
+                        <div class="images">
+                            <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/star-wars-episode-7/8/83/Jabba-the-hut.jpg?width=960" alt="jabba the hutt">
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="group">
+                        <div class="text">
+                            <h4>Healthy Options </h4>
+                            <h3>Ackbar's Garden Sandwich </h3>
+                            <i>&emsp;..... 7.00 credits</i>
+                            <p>An alliance between veggies and sauces that command your attention.<br>
+                            Clearly a trap for which your hands will have no resistance.</p>
+                        </div>
+                      
+                        <div class="images">
+                            <img src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/zcwniJANZIclKmRVd22dQhnSX8yQkb.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5" alt="admiral ackbar">
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="group">
+                        <div class="text">
+                            <h4>Cocktails </h4>
+                            <h3>Qui Gon Gin </h3>
+                            <i>&emsp;..... 3.00 credits</i>
+                            <p>Forces you to be sensitive.<br>
+                            Served in two glasses. Half and Half.</p>
+                            <h4>OR </h4>
+                            <h3>Han Shot First </h3>
+                            <i>&emsp;..... 3.00 credits</i>
+                            <p>A taste so nice you will rebel for a millenium<br>
+                            All ingredients are naturally smuggled.</p>
+                        </div>
+                      
+                        <div class="images">
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/qui-gon-jinn-main_3386f119.jpeg?region=296%2C3%2C937%2C527" alt="qui gon jinn">
+                            <img src="https://images.bauerhosting.com/legacy/empire-images/articles/5b646791ce577d2913b06199/han-solo.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80" alt="han solo">
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="group">
+                        <div class="text">
+                            <h4>Desserts </h4>
+                            <h3>Wookie Cookies </h3>
+                            <i>&emsp;..... 9.00 credits</i>
+                            <p>These ones are really chewie.<br></p>
+                        </div>
+                      
+                        <div class="images">
+                            <img src="https://lumiere-a.akamaihd.net/v1/images/5e94826f7d7499000120d564-image_f9b9d30e.jpeg?region=0%2C48%2C1536%2C768" alt="chewbacca">
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <p class="notice">Live Music Available! We dont serve Droids!</p>
+
+            <!-- Order Section -->
+            <section id="order-form">
+                <h2>Place Your Order</h2>
+                <form>
+                    <label>Tusken Raiders Taters :
+                        <input type="number" min="0">
+                    </label><br><br>
+                    <label>Hutt Burger :
+                        <input type="number" min="0">
+                    </label><br><br>
+                    <label>Ackbar's Garden Sandwich :
+                        <input type="number" min="0">
+                    </label><br><br>
+                    <label>Choose your cocktail :<br>
+                        <input type="radio" name="cocktail"> Qui Gon Gin<br>
+                        <input type="radio" name="cocktail"> Han Shot First<br>    
+                    </label><br><br>
+                    
+                    <label>Wookie Cookies :
+                        <input type="number" min="0">
+                    </label><br><br>
+
+                    <label> Extra Dips : <br>
+                        <input type="checkbox"> Mudhorn Egg Delicacy<br>
+                        <input type="checkbox"> Naboo Swamp Sauce<br>
+                        <input type="checkbox"> Sarlacc Pit Spit
+                    </label><br><br>
+
+                    <label> Extra toppings : <br>
+                        <input type="checkbox"> Blue Milk Cheese (<i>+1 credit</i>)<br>
+                        <input type="checkbox"> Green Milk Cheese (<i>+2 credit</i>)
+                    </label><br><br>
+
+                    <label>Special Requests :<br><br>
+                        <textarea rows="7" cols="37" placeholder="Anything other than Twi'leks!"></textarea>
+                    </label><br><br>
+
+                    <input type="submit" value="Go To Checkout">
+                    <br>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>Made with love by <a href="https://www.codedex.io/@Kashemanon97" target="_blank">@Kashemanon97</a></p>
+        </footer>
+    </body>
+</html>
