@@ -4,5 +4,4 @@ Create a new file called restaurant_menu.html. You can be as creative as you wan
 
 Changes required :
 
-Footer connect with LinkedIN
 Remove site links and use local resources
