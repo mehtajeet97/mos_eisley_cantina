@@ -4,5 +4,4 @@ Create a new file called restaurant_menu.html. You can be as creative as you wan
 
 Changes required :
 
-Remove site links and use local resources
 Create CSS file and export internal CSS to the external file
