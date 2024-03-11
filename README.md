@@ -11,6 +11,7 @@ Future Changes :
 1. Create a SW themed Favicon
 2. Implement mini modals in the menu so that each item is visible by heading
 3. Implement JS to provide functionality to existing form
+4. Align the form using better design
 
 HTML validated using :
 
