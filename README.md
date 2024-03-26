@@ -8,7 +8,7 @@ https://mehtajeet97.github.io/mos_eisley_cantina/
 
 Future Changes : (in order of importance)
 
-1. Create a SW themed Favicon
+1. Add the SW fonts on text and remove header h1 in SW font
 2. Implement mini modals in the menu so that each item is visible by heading
 3. Implement JS to provide functionality to existing form
 
